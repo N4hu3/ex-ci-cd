@@ -55,5 +55,8 @@ jobs:
           aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
           aws-region: us-east-1
 
+      - name: Flake8
+        run: flake8
+
       - name: ls Buckets aws
         run: aws s3 ls

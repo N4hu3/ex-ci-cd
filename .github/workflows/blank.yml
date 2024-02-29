@@ -60,3 +60,8 @@ jobs:
 
       - name: ls Buckets aws
         run: aws s3 ls
+
+      - name: debloy in Bucket aws
+        run: 
+            aws s3 cp utils.py s3://7w7/
+            aws s3 cp test.utils.py s3://7w7/

@@ -1,10 +1,10 @@
 {
     "dev": {
-        "app_function": "Lambda.lambda_handler",
+        "app_function": "lambda.lambda_handler",
         "aws_region": "us-east-1",
-        "project_name": "CI-CD",
-        "runtime": "python3.8",
-        "s3_bucket": "zappa-bw5kwv7si",
+        "project_name": "ci-cd",
+        "runtime": "python3.10",
+        "s3_bucket": "zappa-m2u5jugx7",
         "apigateway_enabled": false,
         "manage_roles": false,
         "keep_warm": false,

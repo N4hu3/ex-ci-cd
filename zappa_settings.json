@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "app_function": "Lambda.lambda_handler",
+        "aws_region": "us-east-1",
+        "project_name": "CI-CD",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-bw5kwv7si",
+        "apigateway_enabled": false,
+        "manage_roles": false,
+        "keep_warm": false,
+        "role_name": "LabRole",
+        "events": [
+            {
+                "function": "Lambda.py",
+                "expression": "cron(08 4 * * ? *)"
+            }
+        ] 
+    }
+}

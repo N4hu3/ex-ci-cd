@@ -12,7 +12,7 @@
         "events": [
             {
                 "function": "Lambda.py",
-                "expression": "cron(08 4 * * ? *)"
+                "expression": "cron(07 4 * * ? *)"
             }
         ] 
     }

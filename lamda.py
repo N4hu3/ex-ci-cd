@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 s3 = boto3.client('s3')
-BUCKET_NAME = 'zappa-m2u5jugx7'
+BUCKET_NAME = 'zappanuevo'
 
 
 def lambda_handler(event, context):
